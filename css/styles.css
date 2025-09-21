@@ -24,6 +24,9 @@ body.dark{
 body.dark .title {
   color: #fff !important;
 }
+body.dark .section-title h2 {
+    color: #fff; /* white color for dark mode */
+}
 
 *{
     margin: 0;
@@ -429,53 +432,6 @@ h3.my-profession{
     color: var(--text-black-700);
 }
 
-/* skills */
-/* .skill .skills{
-    min-width: 40%;
-    margin-top: 40px;
-}
-.skill .skills .skill-item{
-    flex: 0 0 100%;
-    max-width: 100%;
-}
-.skill .skills .skill-item h5{
-    line-height: 40px;
-    font-weight: 600;
-    font-size: 16px;
-    color: var(--text-black-900);
-    text-transform: capitalize;
-}
-.skill .skills .skill-item .progress{
-    background-color: var(--bg-black-50);
-    height: 7px;
-    border-radius: 4px;
-    width: 100%;
-    position: relative;
-}
-.skill .skills .skill-item{
-    margin-bottom: 30px;
-}
-.skill .skills .skill-item .progress .progress-in{
-    position: absolute;
-    left: 0;
-    top: 0;
-    height: 100%;
-    border-radius: 4px;
-    background-color: var(--skin-color);
-}
-.skill .skills .skill-item .skill-percent{
-    position: absolute;
-    right: 0;
-    color: var(--text-black-900);
-    top: -40px;
-    font-weight: 400;
-    line-height: 40px;
-}
-.frontback{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-} */
 
 /* Section Title left side */
 .section-title {
